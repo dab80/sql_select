@@ -1,3 +1,4 @@
+```sql
 mysql> SELECT first_name,
     ->        last_name
     -> FROM student;
@@ -218,3 +219,4 @@ mysql> INSERT INTO ASSIGNMENT (assignment_nbr,
     ->         2017,
     ->         3);
 ERROR 1364 (HY000): Field 'student_id' doesn't have a default value
+```
